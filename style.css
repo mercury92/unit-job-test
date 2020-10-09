@@ -94,46 +94,48 @@ body {
 .main-right {
   display: flex;
   flex-flow: column wrap;
-  background-color: lightseagreen;
-  padding: 5%;
-  width: 89.9%;
+  background-color: #f5f5f5;
+  
 }
 
 .main-head {
   font-size: 0.8em;
   color: white;
-  background-color: magenta;
+  background-color: #333333;
   margin: 3% 0;
   height: 19%;
 }
 .main-head-inside {
-  background-color: mediumblue;
+  background-color: #333333;
   display: grid;
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 1fr;
   margin-bottom: 8%;
+  margin-left: 2%;
 }
 .right-item1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   grid-column-start: span 2;
-  background-color: mediumorchid;
+  background-color: #333333;
 }
 
 .right-friend {
-  background-color: maroon;
+  background-color: #333333;
   display: flex;
   justify-content: center;
   color: white;
   font-size: 0.7em;
-  height: 120px;
+  height: 130px;
+  margin-top: -11px;
 }
 
 .right-friend-box {
   width: 90%;
-  height: 100%;
-  background-color: mediumpurple;
+  height:70%;
+  padding:3%;
+ background-color: #797979;
 }
 
 .right-friend-box-ins {
@@ -150,7 +152,9 @@ body {
   display: flex;
   flex-wrap: row wrap;
   justify-content: space-around;
-  background-color: mediumseagreen;
+  align-content: flex-start;
+  height: 10%;
+  border-bottom: 1px solid rgb(148, 148, 148);
 }
 
 .friend-list {
@@ -274,4 +278,50 @@ body {
 
 .setbtn i {
 
+}
+
+.right-friend-list{
+  background-color: whitesmoke;
+}
+.right-friend-tool{
+  margin: 10% 0;
+  font-size: 0.8em;
+}
+.right-friend-tool button{
+background-color: black;
+color: white;
+border-radius: 10%;
+border: none;
+font-size: 0.8em;
+height: 60%;
+
+
+}
+
+.right-friend-tool i{
+margin-right:10px;
+}
+
+.friend-list{
+  display: flex;
+}
+.right-item-avartar-s{
+  font-size: 0.8em;
+  align-self:flex-start;
+}
+
+.right-item-avartar-s img{
+  padding-left: 15px;
+ padding-right: 10px;
+ 
+}
+
+.last-text{
+  font-size: 0.8em;
+  align-self:flex-end;
+  margin-right: 5%;
+}
+
+.fade{
+  opacity: 0.2;
 }
