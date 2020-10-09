@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  width: 100vw;
+  height: 100vh;
+ 
+}
+.main {
+  display: grid;
+  grid-template-rows: 1fr 12fr;
+  width: 95%;
+  height: 90%;
+  justify-self: center;
+  align-self: center;
+  color: white;
+  outline: none;
+}
+.main-left {
+  background-color: brown;
+}
+
+.header {
+  display: flex;
+}
+.product {
+  display: grid;
+  grid-template-columns: 1.4fr 9fr;
+  background-color: grey;
+}
+.nav {
+  display: grid;
+  grid-template-rows: 1.3fr 9fr;
+  background-color: #333333;
+}
+
+.nav-head {
+  display: grid;
+  align-items: flex-end;
+  padding: 2%;
+  border-bottom: 3px solid #FF6600;
+  margin:0 2%;
+  border-radius: 3%;
+}
+
+.nav-list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 300px;
+ 
+}
+.nav-list div {
+  display: block;
+  width: 100%;
+  margin-left: 14%;
+  font-size: 0.8em;
+}
+
+.nav-head-main {
+  display: flex;
+  flex-flow: wrap row;
+  width: 100%;
+  align-items: center;
+}
+.head-main-logo {
+  width: 10%;
+}
+.head-main-list {
+  display: flex;
+  flex-flow: row;
+  vertical-align: middle;
+  width: 24%;
+  margin-left: 8%;
+  font-size: 0.8em;
+}
+.head-main-list i {
+  margin:3% 8%;
+  color: black;
+}
+.head-main-list div {
+  padding: 0.1%;
+  margin-left: 1%;
+  width: 100%;
+  display: flex;
+  color: black;
+
+}
+
+.main-right {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: lightseagreen;
+  padding: 5%;
+  width: 89.9%;
+}
+
+.main-head {
+  font-size: 0.8em;
+  color: white;
+  background-color: magenta;
+  margin: 3% 0;
+  height: 19%;
+}
+.main-head-inside {
+  background-color: mediumblue;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 8%;
+}
+.right-item1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  grid-column-start: span 2;
+  background-color: mediumorchid;
+}
+
+.right-friend {
+  background-color: maroon;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 0.7em;
+  height: 120px;
+}
+
+.right-friend-box {
+  width: 90%;
+  height: 100%;
+  background-color: mediumpurple;
+}
+
+.right-friend-box-ins {
+  display: grid;
+  grid-template-columns: 2fr 6fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.party-img {
+  display: flex;
+}
+
+.right-friend-tool {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: space-around;
+  background-color: mediumseagreen;
+}
+
+.friend-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.gun-list {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+  width: 100%;
+  background-color:rgba(255, 255, 255,0.95);
+}
+
+.gun-list-ins {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  border-bottom: 7px solid #FF3333;
+  width: 15%;
+  height: 30%;
+  margin: 5% 1%;
+  padding: 1%;
+  background-color:rgba(225, 225, 225, 0.2);
+  z-index: 0;
+  
+}
+
+.gun-list-ins B {
+  font-size: 1em;
+  color: black;
+}
+
+.gun-button{
+  padding: 2% 0;
+  font-size: 0.7em;
+  text-align: center;
+  color: white;
+  background-color: #33CC99!important;
+  margin: 5% 5%;
+  vertical-align: middle;
+}
+
+
+.gun-list-ins div:first-child {
+  align-self: flex-end;
+  color: white;
+  background-color: #f9690e;
+  border-radius: 8%;
+  padding: 2% 7%;
+  font-size: 0.7em;
+  margin: 0 5% 0 0;
+}
+.gun-list-ins div:nth-child(2) {
+  align-self: center;
+}
+
+.gun-list-ins img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+.right-item-avartar{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 3% 0 3% 2%;
+}
+
+.right-item-avartar img{
+  margin: 2% 4% 2% 2%;
+ }
+
+ .right-item-logout{
+   margin: 7% 3%;
+   color: white;
+ }
+
+ .symbol{
+   display: flex;
+  align-items: center;
+
+
+ }
+ .symbol img{
+   margin: 0% 5% 0 0%;
+ }
+ .main-head-inside button {
+   grid-column-start: span 2;
+   margin: 3% 10%;
+   width: 80%;
+   background-color:#33CC99;
+   border: none;
+ }
+
+ .party{
+  margin: 5% 3%;
+  display: flex;
+  flex-direction: column;
+ }
+ .party-img img{
+   margin: 20%;
+  padding: 0% 40% 0 0%;
+ }
+
+ 
+
+.setbtn{
+  width: 260px;
+  height: 22px;
+  background-color:#33CC99;
+  border: none;
+  color: white;
+}
+
+.setbtn i {
+
+}
